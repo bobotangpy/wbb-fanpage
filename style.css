@@ -1,0 +1,281 @@
+/*************** Home ******************/
+body {
+    font-family: 'Baloo', cursive;
+    height: 100%;
+    weight: 100%;
+}
+/***~~~~~~ Loading ~~~~~***/
+.loader {
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #fff    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader.hidden  {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.navbar {
+    background-color: rgb(255,255,255,0.9);
+    padding: 1% 0;
+    font-size: 1.2em;
+}
+
+.navbar-brand {
+    padding: 0 5px 0 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-item .dropdown-menu {
+    left: -25%;
+    background-color: rgb(255,255,255,0.8);
+}
+
+#home {
+    background: url(img/bg1.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.main-title {
+    font-family: 'Luckiest Guy', cursive;
+    display: table-cell;
+    text-align: center;    
+    vertical-align: middle;
+    color: #DF362D;
+    text-shadow: 0 0 40px #fff;
+}
+
+.main-title #welcome {
+    font-size: 450%;
+}
+
+.btn-default {
+    color: #FFCD58;
+}
+
+#story {
+    background-color: #fff0d7;
+    padding: 90px;
+}
+
+#story-txt {
+    padding: 0 50px 0 50px;
+}
+
+#footer {
+    font-family: 'Luckiest Guy', cursive;
+    background-color: #FFCD58;
+    padding: 5% 5% 0 5%;
+    color: #FF5C4D;
+}
+
+.social img {
+    padding: 15px;
+    height: 50%;
+}
+
+/*************** Meet The Characters ******************/
+#characters, #bts {
+    background: url(img/bg2.jpg) no-repeat fixed;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+#overlay {
+    background: rgb(255, 255, 255);
+    filter: alpha(opacity=60);
+    /* IE */
+    -moz-opacity: 0.6;
+    /* Mozilla */
+    opacity: 0.6;
+    /* CSS3 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-inner .carousel-item img {
+    max-height: 220px;
+    margin: auto;
+}
+
+#characters .row {
+    padding: 200px 100px 60px 100px;
+}
+
+.rounded-circle {
+    max-width: 90px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 8px;
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(94, 94, 94));
+    filter: drop-shadow(5px 5px 5px rgb(94, 94, 94));
+    /* animation */
+    animation-duration: 2s;
+}
+
+/*** Back to Top Button ***/
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(148, 148, 148, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+/*************** Behind The Scenes ******************/
+.bts-title {
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;    
+    vertical-align: middle;
+    color: #FF5C4D;
+    padding: 15px;
+    position: relative; /* for z-index to work --> need to add position */
+    z-index: 3;
+}
+
+  /* #demo {
+    height:100%;
+    position:relative;
+    overflow:hidden;
+  } */
+
+/* .green{
+    background-color:#6fb936;
+  }
+          .thumb{
+              margin-bottom: 30px;
+          }
+          
+          .page-top{
+              margin-top:85px;
+          } */
+ 
+img .zoom {
+      width: 100%;
+      height: 200px;
+      border-radius:5px;
+      object-fit:cover;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+  }
+          
+   
+  .transition {
+      -webkit-transform: scale(1.1); 
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      transform: scale(1.1);
+  }
+      .modal-header {
+     
+       border-bottom: none;
+  }
+      .modal-title {
+          color:#000;
+      }
+      .modal-footer{
+        display:none;  
+      }
+
+.lightbox-caption {
+    font-size: 16px;
+    padding: 2%;
+}
+
+/*************** Behind The Voices ******************/
+#btv_video {
+    background-color: #F9EAC2;
+    padding: 20px 100px 70px 100px;
+}
+
+#btv {
+    background: url(img/bg2.jpg) no-repeat fixed;
+    height: 100%;
+    /* width: 100%; */
+    position: relative;
+    background-size: cover;
+}
+
+.embed-container {
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    /* max-width: 100%; */
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    position:absolute;
+}
+
+#actors .row {
+    padding: 30px;
+}

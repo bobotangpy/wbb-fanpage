@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Behind The Scenes</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap">
+    <link href="https://fonts.googleapis.com/css?family=Baloo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+<!-------------------- Loading ------------------------>        
+    <div class="loader">
+        <img src="img/moving_stack.gif" alt="Loading..." height="30%"/>
+    </div>
+    <!--------------------Navigation------------------------>
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/title.png" width="120px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#story">The Story</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="characters.html">Meet The Characters</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#more" aria-haspopup="true" aria-expanded="false">What's More</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="behind-the-voices.html">Behind The Voices</a>
+                            <a class="dropdown-item" href="behind-the-scenes.html">Behind The Scenes</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-------------------- Gallery ------------------------>
+<div class="container-fluid" id="bts">  
+        <div id="overlay"></div> 
+    <div class="bts-title">
+    <h1 class="animated tada slow">Behind The Scenes</h1>
+</div>
+<!-- Page Content -->
+<div class="container page-top">
+        <div class="animated fadeIn slower row">
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                <a href="img/bts/producer_sketch_1.jpg" class="fancybox" rel="lightbox">
+                    <img src="img/bts/producer_sketch_1.jpg" class="zoom img-fluid"  alt="Producer Sketch">
+                </a>
+                <div class="lightbox-caption"><p>Sketch by the producers.</p></div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                <a href="img/bts/producer_sketch_2.jpg" class="fancybox" rel="lightbox">
+                    <img src="img/bts/producer_sketch_2.jpg" class="zoom img-fluid"  alt="Producer Sketch">
+                </a>
+                <div class="lightbox-caption"><p>Sketch by the producers.</p></div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                <a href="img/bts/producer_sketch_3.jpg" class="fancybox" rel="lightbox">
+                    <img src="img/bts/producer_sketch_3.jpg" class="zoom img-fluid"  alt="Producer Sketch">
+                </a>
+                <div class="lightbox-caption"><p>Sketch by the producers.</p></div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                <a href="img/bts/ESCANDALOSOS.jpg" class="fancybox" rel="lightbox">
+                    <img src="img/bts/ESCANDALOSOS.jpg" class="zoom img-fluid"  alt="Sketch of Escandalosos">
+                </a>
+                <div class="lightbox-caption"><p>Sketch of episode "Escandalosos".</p></div>
+            </div> 
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                <a href="img/bts/SB_Professor Lampwick.jpg" class="fancybox" rel="lightbox">
+                    <img src="img/bts/SB_Professor Lampwick.jpg" class="zoom img-fluid"  alt="Storyboard of 'Professor Lampwick'">
+                </a>
+                <div class="lightbox-caption"><p>Storyboard of episode "Professor Lampwick".</p></div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                <a href="img/bts/SB_Christmas Parties.jpg" class="fancybox" rel="lightbox">
+                    <img src="img/bts/SB_Christmas Parties.jpg" class="zoom img-fluid"  alt="Storyboard of 'Christmas Parties'">
+                </a>
+                <div class="lightbox-caption"><p>Storyboard of episode "Christmas Parties".</p></div>
+            </div>        
+       </div>
+    </div>
+
+
+<!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js">
+</script>
+<!-- Popper -->
+<script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<!-- Latest compiled and minified Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+<!-- WOW -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+<!-- Add fancyBox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
+    });
+    
+    $(".zoom").hover(function(){
+		$(this).addClass('transition');
+	}, function(){
+		$(this).removeClass('transition');
+	});
+});
+
+// Loading //
+window.addEventListener("load", function(){
+        const loader = document.querySelector(".loader");
+        loader.className += " hidden";
+    });
+</script>
+
+</body>
+
+</html>

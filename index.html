@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>We Bare Bears</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap">
+        <link href="https://fonts.googleapis.com/css?family=Baloo&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <!-- <script src="https://kit.fontawesome.com/7896e3f083.js"></script> -->
+    </head>
+    <body data-spy="scroll" data-target="#navbarResponsive">
+     <!-------------------- Loading ------------------------>        
+        <div class="loader">
+            <img src="img/moving_stack.gif" alt="Loading..." height="30%"/>
+        </div>
+    <!--------------------Navigation------------------------>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/title.png" width="120px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" data-scroll href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-scroll href="#story">The Story</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="characters.html">Meet The Characters</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#more" aria-haspopup="true" aria-expanded="false">What's More</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="behind-the-voices.html">Behind The Voices</a>
+                            <a class="dropdown-item" href="behind-the-scenes.html">Behind The Scenes</a>
+                      </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <!---------Home Section--------->
+    <div id="home">
+        <div class="main-title">
+            <h1 class="animated bounceInDown slow" id="welcome">Welcome</h1>
+            <h1 class="animated bounceInDown slow">to The Bear Cave !</h1>
+            <button type="button" class="btn btn-default btn-lg"><a href="#story">Let's Go</a></button>
+        </div>
+    </div>
+
+        <!---------About the Story--------->
+        <div class="container-fluid" id="story">
+            <div class="row">
+                <div class="col-lg-9 text-center" id="story-txt">
+                <h3>The Story</h3>
+                <p>We Bare Bears is an American animated series created by Daniel Chong for Cartoon Network. The show follows three adoptive bear brothers: Grizz, Panda (often called Pan-Pan) and Ice Bear. The bears attempt to integrate with the human world in the San Francisco Bay Area, such as by purchasing food, making human companions or trying to become famous on the Internet, although these attempts see the bears struggle to do so due to the civilized nature of humans and their own animal instincts. However, in the end, they figure out that they have each other for support. The Bears often form a "bear stack", which they use to get around the city.</p>
+
+                <p>The series was based on Chong's webcomic The Three Bare Bears, and the pilot episode made its world premiere at the KLIK! Amsterdam Animation Festival, where it won in the "Young Amsterdam Audience" category. The series premiered on July 27, 2015.</p>
+
+                <p>On May 30, 2019, Cartoon Network announced that We Bare Bears: The Movie will be released in 2020 and that an untitled spinoff series that focuses on the three bears when they were cubs is in development.</p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="img/show_poster.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <!---------Footer--------->
+        <div class="container-fluid padding" id="footer">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Let's be Friends!</h2>
+            </div>
+            <div class="col-12 social animated flipInX slow">
+                <a href="https://www.facebook.com/CNWeBareBears/" target="blank"><img src="social-icons/fb.png"></a>
+                <a href="https://twitter.com/cnwebarebears?lang=en" target="blank"><img src="social-icons/twitter.png"></a>
+                <a href="https://www.instagram.com/webarebearsbts/" target="blank"><img src="social-icons/ig.png"></a>
+                <a href="https://www.youtube.com/playlist?list=PLg6KfZlgBuDXwQ56IZ8tByQGgmgONP4Wr" target="blank"><img src="social-icons/youtube.png"></a>
+            </div>
+        </div>
+        </div>
+        
+        
+    <!-- jQuery library -->
+    <script src = "https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity = "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin = "anonymous">
+   </script>
+   
+   <!-- Popper -->
+   <script src =" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity = "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin = "anonymous">
+   </script>
+   
+   <!-- Latest compiled and minified Bootstrap JavaScript -->
+   <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity = "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin = "anonymous">
+   </script>
+   <!-- Smooth Scroll -->
+   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+   
+   <!-- WOW -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+   <script type="text/javascript">
+	new WOW().init();
+
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 800
+    });
+
+    // Loading //
+    window.addEventListener("load", function(){
+        const loader = document.querySelector(".loader");
+        loader.className += " hidden";
+    });
+    </script>
+    </body>
+</html>
