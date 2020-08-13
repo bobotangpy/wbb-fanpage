@@ -280,6 +280,15 @@
             $(this).removeClass('animated swing');
         });
 
+	$('.carousel-control-prev').on('click', function(e) {
+            let target = e.currentTarget.parentNode.parentNode.id;
+            $(`#${target}`).carousel('prev')
+        })
+
+        $('.carousel-control-next').on('click', function(e) {
+            let target = e.currentTarget.parentNode.parentNode.id;
+            $(`#${target}`).carousel('next')
+        })
 
         // Back to Top Button //
         $(window).scroll(function() {
