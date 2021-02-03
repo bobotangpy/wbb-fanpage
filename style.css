@@ -279,3 +279,45 @@ img .zoom {
 #actors .row {
     padding: 30px;
 }
+
+@media (max-width: 767.98px) {
+  .navbar-expand-md .container-fluid {
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+}
+
+@media (max-device-width: 812px) {
+  p {
+    font-size: 17px;
+  }
+  #home {
+    background-position: -150px 0px;
+  }
+  .main-title {
+    padding-bottom: 14rem;
+  }
+  #story {
+    padding: 50px;
+  }
+  #story-txt {
+    padding: 0;
+  }
+  .social img {
+    height: 25%;
+  }
+
+  #characters .row {
+    padding: 150px 30px 60px 30px;
+  }
+
+  #actors .row {
+    padding: 30px 10px;
+  }
+
+  #btv_video {
+    padding: 20px 20px 50px 20px;
+  }
+}
