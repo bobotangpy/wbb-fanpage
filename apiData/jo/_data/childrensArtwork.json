@@ -1,0 +1,121 @@
+{
+  "1_drawing": [
+    {
+      "category": "drawing",
+      "title": "Prize-winning artworks from My Hong Kong Dream 2016 Drawing Competition",
+      "src": "http://www.hkcef.org.hk/images/photo_html/2016/detail/Painting.pdf"
+    },
+    {
+      "category": "drawing",
+      "title": "Prize-winning artworks from My Hong Kong Dream 2017 Drawing Competition",
+      "src": "http://www.hkcef.org.hk/images/photo_html/2017/detail/PAINTING.pdf"
+    },
+    {
+      "category": "drawing",
+      "title": "Artworks from My Hong Kong Dream 2017 Drawing Competition (Finalist)",
+      "src": "https://www.facebook.com/media/set/?vanity=MyHongKongDream&set=a.1729735840615076"
+    },
+    {
+      "category": "drawing",
+      "title": "Prize-winning artworks from My Hong Kong Dream 2018 Drawing Competition",
+      "src": "http://www.hkcef.org.hk/images/photo_html/2018/detail/PAINTING.pdf"
+    },
+    {
+      "category": "drawing",
+      "title": "Artworks from My Hong Kong Dream 2018 Drawing Competition (Finalist)",
+      "src": "https://www.facebook.com/media/set/?vanity=MyHongKongDream&set=a.1867478856840773"
+    },
+    {
+      "category": "drawing",
+      "title": "Prize-winning artworks from My Hong Kong Dream 2019 Drawing Competition",
+      "src": "http://www.hkcef.org.hk/images/photo_html/2019/detail/Painting.pdf"
+    },
+    {
+      "category": "drawing",
+      "title": "Artworks from My Hong Kong Dream 2019 Drawing Competition (Finalist)",
+      "src": "https://www.facebook.com/media/set/?vanity=MyHongKongDream&set=a.2089455717976418"
+    },
+    {
+      "category": "drawing",
+      "title": "Prize-winning artworks from My Hong Kong Dream 2020 Drawing Competition",
+      "src": "http://www.hkcef.org.hk/images/photo_html/2020/Detail/Drawing.pdf"
+    },
+    {
+      "category": "drawing",
+      "title": "Artworks from My Hong Kong Dream 2020 Drawing Competition (Finalist)",
+      "src": "https://www.facebook.com/media/set/?vanity=MyHongKongDream&set=a.2406845922904061"
+    }
+  ],
+  "2_photography": [
+    {
+      "category": "photography",
+      "title": "Prize-winning photos from My Hong Kong Dream 2016 Photography Competition",
+      "src": "http://www.hkcef.org.hk/images/photo_html/2016/detail/PHOTO.pdf"
+    },
+    {
+      "category": "photography",
+      "title": "Prize-winning photos from My Hong Kong Dream 2017 Photography Competition",
+      "src": "http://www.hkcef.org.hk/images/photo_html/2017/detail/PHOTO.pdf"
+    },
+    {
+      "category": "photography",
+      "title": "Photos from My Hong Kong Dream 2017 Photography Competition (Finalist)",
+      "src": "https://www.facebook.com/media/set/?vanity=MyHongKongDream&set=a.1730753887179938",
+      "remarks": "(group I: secondary school students; group II: citizens aged 18 or above)"
+    },
+    {
+      "category": "photography",
+      "title": "Photos from My Hong Kong Dream 2018 Photography Competition (Finalist)",
+      "src": "https://www.facebook.com/media/set/?vanity=MyHongKongDream&set=a.1867485893506736",
+      "remarks": "(group I: secondary school students; group II: citizens aged 18 or above)"
+    },
+    {
+      "category": "photography",
+      "title": "Prize-winning photos from My Hong Kong Dream 2019 Photography Competition",
+      "src": "http://www.hkcef.org.hk/images/photo_html/2019/detail/Photographic.pdf"
+    },
+    {
+      "category": "photography",
+      "title": "Photos from My Hong Kong Dream 2019 Photography Competition (Finalist)",
+      "src": "https://www.facebook.com/media/set/?vanity=MyHongKongDream&set=a.2089470234641633",
+      "remarks": "(group I: primary school students; group II: secondary school students; group III: citizens aged 18 or above)"
+    },
+    {
+      "category": "photography",
+      "title": "Prize-winning photos from My Hong Kong Dream 2020 Photography Competition",
+      "src": "http://www.hkcef.org.hk/images/photo_html/2020/Detail/Photography.pdf"
+    },
+    {
+      "category": "photography",
+      "title": "Photos from My Hong Kong Dream 2020 Photography Competition (Finalist)",
+      "src": "https://www.facebook.com/media/set/?vanity=MyHongKongDream&set=a.2406832919572028",
+      "remarks": "(group I: primary school students; group II: secondary school students; group III: citizens aged 18 or above)"
+    }
+  ],
+  "3_creative": [
+    {
+      "category": "creative",
+      "title": "2017-20 Student Creative Works (Music)",
+      "img": "/assets/childrenLens/galamusica-scw2020_poster.jpeg",
+      "src": "https://www.edb.gov.hk/en/curriculum-development/kla/arts-edu/student-activities/gala-musica/index.html"
+    },
+    {
+      "category": "creative",
+      "title": "2017-21 Exhibition of Student Visual Arts Work",
+      "img": "/assets/childrenLens/ESVA202021-Poster-page-001.jpg",
+      "src": "https://www.edb.gov.hk/en/curriculum-development/kla/arts-edu/student-activities/esvaw/index.html"
+    }
+  ],
+  "4_more": [
+    {
+      "category": "more",
+      "title": "Artworks, photography, and creative writing submissions (Chinese only) prior 2016 from the Hong Kong Dream Competition",
+      "src": "http://www.hkcef.org.hk/photos.html"
+    },
+    {
+      "category": "more",
+      "title": "Students' Creative Visual Arts Work prior 2016 from the Arts Education Section, EDB",
+      "src": "https://www.edb.gov.hk/en/curriculum-development/kla/arts-edu/student-activities/va-previous/index.html"
+    }
+  ]
+}

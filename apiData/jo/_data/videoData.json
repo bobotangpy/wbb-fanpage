@@ -1,0 +1,36 @@
+{
+  "edu": [
+    {
+      "page": "edu",
+      "title": "13/7/2012 \n The Pulse : National Education (Part 1)",
+      "src": "https://www.youtube.com/embed/k_e8NqonP3c",
+      "transcription": null
+    },
+    {
+      "page": "edu",
+      "title": "13/7/2012 \n The Pulse : National Education (Part 2)",
+      "src": "https://www.youtube.com/embed/4JBRzvr1nbM",
+      "transcription": null
+    },
+    {
+      "page": "edu",
+      "title": "Time with the Editor-in-Chief",
+      "src": "https://www.youtube.com/embed/-7m7zRvtYkU",
+      "transcription": "/assets/videoTranscripts/Time_with_the_Editor-in-Chief.pdf"
+    }
+  ],
+  "hkchina": [
+    {
+      "page": "hkchina",
+      "title": "Hong Kong Connection: All the way North",
+      "src": "https://www.youtube.com/embed/oZov9NZ8XAM",
+      "transcription": "public/assets/videoTranscripts/Hong_Kong_Connection-All_the_way_North.pdf"
+    },
+    {
+      "page": "hkchina",
+      "title": "What do Hong Kong people think of China or the mainland Chinese?",
+      "src": "https://www.youtube.com/embed/yqDZKOd3s3Q",
+      "transcription": "/assets/videoTranscripts/What_Does_Hong_Kong_Think_Of_Mainlanders_Chinese.pdf"
+    }
+  ]
+}
