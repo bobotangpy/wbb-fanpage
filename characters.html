@@ -252,7 +252,7 @@
             </div>
     </div>
     <!--------- Back to Top Button --------->
-    <a href="javascript:" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
+    <a href="#" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
     <!-- jQuery library -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- Popper -->
@@ -299,9 +299,10 @@
         }
         });
         $('#return-to-top').click(function() {      // When arrow is clicked
-        $('body,html').animate({
-            scrollTop : 0                       // Scroll to top of body
-        }, 500);
+			e.preventDefault();
+        	$('body,html').animate({
+            	scrollTop : 0                       // Scroll to top of body
+        	}, 500);
         });
     });
 
